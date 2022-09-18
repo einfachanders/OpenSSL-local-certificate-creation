@@ -6,7 +6,8 @@ A lot of services i have running locally are accessed using HTTP. Just for the s
 ## Respository contents
 
 ### `.env`-file
-The `.env`-file contains environment variables, more specifically the passphrases for the ca and server private-key. Modify the passphrases to your liking.
+The `.env`-file contains environment variables, more specifically the passphrases for the ca, server private-key and the filenames. I strongly suggest chaning the passphrase. Modify the filenames to your liking.
+
 
 ### `conf/server.conf`-file
 My Modifications to the default `openssl.conf`-file. The distinguished names are used to fill out the ca-attributes. Change those to meet your requirements.
