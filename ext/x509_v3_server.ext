@@ -1,0 +1,9 @@
+# x509_v3.ext
+authorityKeyIdentifier=keyid,issuer
+basicConstraints = critical,CA:FALSE
+extendedKeyUsage=serverAuth
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+
+[alt_names]
+DNS.1 = *.sample.orga
+DNS.2 = sample.orga
